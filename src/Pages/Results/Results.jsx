@@ -23,7 +23,7 @@ function Results() {
 			.catch((err) => {
 				console.log(err);
 				setIsLoading(false);
-			});N
+			});
 	}, [categoryName]);
 
 	return (
